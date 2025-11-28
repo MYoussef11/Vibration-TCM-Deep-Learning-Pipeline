@@ -1,0 +1,43 @@
+{
+  "samples": 1641,
+  "time_series_shape": [
+    1641,
+    20,
+    6
+  ],
+  "spectrogram_shape": [
+    1641,
+    513,
+    1,
+    1
+  ],
+  "label_distribution": {
+    "0": 579,
+    "1": 1062
+  },
+  "group_counts": {
+    "Bad data__1.csv": 80,
+    "Bad data__2.csv": 22,
+    "Bad data__3.csv": 111,
+    "Bad data__4.csv": 131,
+    "Bad data__5.csv": 135,
+    "Bad data__6.csv": 103,
+    "Bad data__7.csv": 81,
+    "Bad data__8.csv": 15,
+    "Good data__1.csv": 79,
+    "Good data__2.csv": 89,
+    "Good data__3.csv": 94,
+    "Good data__4.csv": 63,
+    "Good data__5.csv": 80,
+    "Good data__6.csv": 64,
+    "Good data__7.csv": 73,
+    "Good data__8.csv": 37,
+    "Moderate data__1.csv": 106,
+    "Moderate data__2.csv": 46,
+    "Moderate data__3.csv": 99,
+    "Moderate data__4.csv": 97,
+    "Moderate data__5.csv": 36
+  },
+  "spectrogram_freq_bins": 513,
+  "spectrogram_time_bins": 1
+}

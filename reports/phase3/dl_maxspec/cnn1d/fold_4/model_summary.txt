@@ -1,0 +1,30 @@
+Model: "cnn1d"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ cnn1d_input (InputLayer)    [(None, 100, 6)]          0         
+                                                                 
+ conv1d_9 (Conv1D)           (None, 100, 64)           1216      
+                                                                 
+ conv1d_10 (Conv1D)          (None, 100, 64)           12352     
+                                                                 
+ batch_normalization_3 (Bat  (None, 100, 64)           256       
+ chNormalization)                                                
+                                                                 
+ max_pooling1d_3 (MaxPoolin  (None, 50, 64)            0         
+ g1D)                                                            
+                                                                 
+ conv1d_11 (Conv1D)          (None, 50, 128)           24704     
+                                                                 
+ global_average_pooling1d_3  (None, 128)               0         
+  (GlobalAveragePooling1D)                                       
+                                                                 
+ dropout_3 (Dropout)         (None, 128)               0         
+                                                                 
+ dense_3 (Dense)             (None, 3)                 387       
+                                                                 
+=================================================================
+Total params: 38915 (152.01 KB)
+Trainable params: 38787 (151.51 KB)
+Non-trainable params: 128 (512.00 Byte)
+_________________________________________________________________

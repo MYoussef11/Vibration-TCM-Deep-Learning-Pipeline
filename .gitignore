@@ -7,14 +7,14 @@ __pycache__/
 *.h5
 *.hdf5
 *.ckpt
-*.png
+
 *.jpg
 *.jpeg
 *.svg
 *.npy
 *.npz
 *.tfrec
-reports/
+
 logs/
 wandb/
 .pytest_cache/

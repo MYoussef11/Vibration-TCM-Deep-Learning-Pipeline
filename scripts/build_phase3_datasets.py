@@ -37,6 +37,9 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=Path("artifacts") / "phase3",
     )
+    parser.add_argument("--binary", action="store_true", help="Merge Moderate and Bad into a single Faulty class.")
+    parser.add_argument("--stft-size", type=int, default=None, help="Override STFT window size (e.g., 1024).")
+    parser.add_argument("--stft-overlap", type=float, default=None, help="Override STFT overlap (e.g., 0.9).")
     return parser.parse_args()
 
 
@@ -53,6 +56,12 @@ def compute_spectrogram(
 ) -> np.ndarray:
     hop = max(1, int(n_fft * (1 - overlap)))
     noverlap = n_fft - hop
+    
+    # Pad window if it's shorter than n_fft
+    if window.shape[0] < n_fft:
+        pad_width = n_fft - window.shape[0]
+        window = np.pad(window, ((0, pad_width), (0, 0)), mode='constant')
+
     channel_specs: List[np.ndarray] = []
     for channel_idx in range(window.shape[1]):
         _, _, Zxx = signal.stft(
@@ -60,7 +69,7 @@ def compute_spectrogram(
             fs=sampling_rate,
             nperseg=n_fft,
             noverlap=noverlap,
-            padded=False,
+            padded=True,  # Enable padding in STFT as well
             boundary=None,
         )
         magnitude = np.abs(Zxx)
@@ -107,13 +116,27 @@ def main() -> None:
         if windows.size == 0:
             continue
         group_idx = group_lookup.setdefault(dataset.path.name, len(group_lookup))
-        label_idx = LABEL_MAP.get(dataset.label, -1)
+        
+        # Label mapping logic
+        raw_label_idx = LABEL_MAP.get(dataset.label, -1)
+        if args.binary:
+            # 0 (Good) -> 0
+            # 1 (Moderate) -> 1
+            # 2 (Bad) -> 1
+            label_idx = 1 if raw_label_idx >= 1 else 0
+        else:
+            label_idx = raw_label_idx
+            
+        # Determine STFT params
+        n_fft = args.stft_size if args.stft_size is not None else config.stft_window_size
+        overlap = args.stft_overlap if args.stft_overlap is not None else config.stft_overlap
+
         for idx, window in enumerate(windows):
             spec = compute_spectrogram(
                 window,
                 sampling_rate=config.target_sampling_rate_hz,
-                n_fft=config.stft_window_size,
-                overlap=config.stft_overlap,
+                n_fft=n_fft,
+                overlap=overlap,
             )
             X_time.append(window)
             X_spec.append(spec[..., np.newaxis])

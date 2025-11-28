@@ -1,0 +1,67 @@
+{
+  "best_value": 0.644180703163147,
+  "best_params": {
+    "units1": 96,
+    "units2": 64,
+    "dropout": 0.18755140279299917,
+    "dense_units": 64,
+    "learning_rate": 0.00044114450286840726
+  },
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.6267303347587585,
+      "params": {
+        "units1": 64,
+        "units2": 48,
+        "dropout": 0.2893211816198771,
+        "dense_units": 64,
+        "learning_rate": 0.0018173420176270415
+      }
+    },
+    {
+      "number": 1,
+      "value": 0.6435557007789612,
+      "params": {
+        "units1": 64,
+        "units2": 32,
+        "dropout": 0.37374775783406955,
+        "dense_units": 96,
+        "learning_rate": 0.00039099024097130375
+      }
+    },
+    {
+      "number": 2,
+      "value": 0.644180703163147,
+      "params": {
+        "units1": 96,
+        "units2": 64,
+        "dropout": 0.18755140279299917,
+        "dense_units": 64,
+        "learning_rate": 0.00044114450286840726
+      }
+    },
+    {
+      "number": 3,
+      "value": 0.6435557007789612,
+      "params": {
+        "units1": 64,
+        "units2": 16,
+        "dropout": 0.4789094264505205,
+        "dense_units": 96,
+        "learning_rate": 0.0007312337806756823
+      }
+    },
+    {
+      "number": 4,
+      "value": 0.6198134064674378,
+      "params": {
+        "units1": 64,
+        "units2": 16,
+        "dropout": 0.1985760872882063,
+        "dense_units": 64,
+        "learning_rate": 0.003954802561040897
+      }
+    }
+  ]
+}

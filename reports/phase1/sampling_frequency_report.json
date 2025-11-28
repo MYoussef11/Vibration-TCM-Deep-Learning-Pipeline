@@ -1,0 +1,221 @@
+{
+  "aggregate": {
+    "dataset_count": 21,
+    "avg_sampling_frequency_hz": 10.0,
+    "std_sampling_frequency_hz": 0.0,
+    "avg_dt_seconds": 0.10000000000000002
+  },
+  "per_file": {
+    "Bad data__1.csv": {
+      "samples": 814,
+      "duration_seconds": 81.3,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__2.csv": {
+      "samples": 234,
+      "duration_seconds": 23.3,
+      "dt_mean": 0.10000000000000002,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__3.csv": {
+      "samples": 1128,
+      "duration_seconds": 112.7,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__4.csv": {
+      "samples": 1330,
+      "duration_seconds": 132.9,
+      "dt_mean": 0.09999999999999998,
+      "dt_std": 2.7755575615628914e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__5.csv": {
+      "samples": 1370,
+      "duration_seconds": 136.9,
+      "dt_mean": 0.09999999999999998,
+      "dt_std": 2.7755575615628914e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__6.csv": {
+      "samples": 1041,
+      "duration_seconds": 104.0,
+      "dt_mean": 0.1,
+      "dt_std": 0.0,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__7.csv": {
+      "samples": 829,
+      "duration_seconds": 82.8,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Bad data__8.csv": {
+      "samples": 169,
+      "duration_seconds": 16.8,
+      "dt_mean": 0.09999999999999998,
+      "dt_std": 2.7755575615628914e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "bad"
+    },
+    "Good data__1.csv": {
+      "samples": 802,
+      "duration_seconds": 80.0,
+      "dt_mean": 0.1,
+      "dt_std": 0.0,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__2.csv": {
+      "samples": 904,
+      "duration_seconds": 90.2,
+      "dt_mean": 0.10000000000000002,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__3.csv": {
+      "samples": 956,
+      "duration_seconds": 95.5,
+      "dt_mean": 0.10000000000000002,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__4.csv": {
+      "samples": 645,
+      "duration_seconds": 64.4,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__5.csv": {
+      "samples": 812,
+      "duration_seconds": 81.1,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__6.csv": {
+      "samples": 655,
+      "duration_seconds": 65.4,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__7.csv": {
+      "samples": 746,
+      "duration_seconds": 74.5,
+      "dt_mean": 0.1,
+      "dt_std": 0.0,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Good data__8.csv": {
+      "samples": 381,
+      "duration_seconds": 38.0,
+      "dt_mean": 0.1,
+      "dt_std": 0.0,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "good"
+    },
+    "Moderate data__1.csv": {
+      "samples": 1073,
+      "duration_seconds": 107.2,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "moderate"
+    },
+    "Moderate data__2.csv": {
+      "samples": 472,
+      "duration_seconds": 47.1,
+      "dt_mean": 0.1,
+      "dt_std": 0.0,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "moderate"
+    },
+    "Moderate data__3.csv": {
+      "samples": 1003,
+      "duration_seconds": 100.2,
+      "dt_mean": 0.10000000000000002,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "moderate"
+    },
+    "Moderate data__4.csv": {
+      "samples": 985,
+      "duration_seconds": 98.4,
+      "dt_mean": 0.10000000000000002,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "moderate"
+    },
+    "Moderate data__5.csv": {
+      "samples": 374,
+      "duration_seconds": 37.3,
+      "dt_mean": 0.09999999999999999,
+      "dt_std": 1.3877787807814457e-17,
+      "fs_mean": 10.0,
+      "fs_std": 0.0,
+      "fs_median": 10.0,
+      "label": "moderate"
+    }
+  },
+  "recommended_target_sampling_rate_hz": 10.0
+}

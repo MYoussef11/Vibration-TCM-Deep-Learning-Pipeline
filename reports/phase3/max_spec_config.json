@@ -1,0 +1,16 @@
+{
+  "target_sampling_rate_hz": 10.0,
+  "window_size_samples": 100,
+  "window_overlap": 0.5,
+  "filtering_method": "bandpass",
+  "filter_order": 4,
+  "filter_cutoff_hz": [
+    1.0,
+    4.0
+  ],
+  "normalization": "per_window_standardization",
+  "detrending": "mean_subtraction",
+  "stft_window": "hann",
+  "stft_window_size": 64,
+  "stft_overlap": 0.5
+}

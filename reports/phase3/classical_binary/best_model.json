@@ -1,0 +1,39 @@
+{
+  "model": "rf",
+  "best_score": 0.8182145444702048,
+  "best_params": {
+    "clf__n_estimators": 389,
+    "clf__min_samples_split": 5,
+    "clf__min_samples_leaf": 1,
+    "clf__max_features": "log2",
+    "clf__max_depth": 30
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.782,
+      "recall": 0.6753022452504318,
+      "f1-score": 0.7247451343836886,
+      "support": 579.0
+    },
+    "1": {
+      "precision": 0.8352322524101665,
+      "recall": 0.8973634651600754,
+      "f1-score": 0.8651838402178847,
+      "support": 1062.0
+    },
+    "accuracy": 0.8190127970749543,
+    "macro avg": {
+      "precision": 0.8086161262050833,
+      "recall": 0.7863328552052535,
+      "f1-score": 0.7949644873007866,
+      "support": 1641.0
+    },
+    "weighted avg": {
+      "precision": 0.8164501231319908,
+      "recall": 0.8190127970749543,
+      "f1-score": 0.8156323407187991,
+      "support": 1641.0
+    }
+  },
+  "estimator_repr": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('clf',\n                 RandomForestClassifier(max_depth=30, max_features='log2',\n                                        min_samples_split=5, n_estimators=389,\n                                        n_jobs=-1, random_state=42))])"
+}

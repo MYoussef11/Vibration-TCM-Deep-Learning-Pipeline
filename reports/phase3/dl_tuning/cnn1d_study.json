@@ -1,0 +1,79 @@
+{
+  "best_value": 0.6937677264213562,
+  "best_params": {
+    "filters1": 64,
+    "filters2": 48,
+    "filters3": 32,
+    "kernel_size": 3,
+    "dropout": 0.323318158079492,
+    "dense_units": 96,
+    "learning_rate": 0.004594450465104588
+  },
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.6937677264213562,
+      "params": {
+        "filters1": 64,
+        "filters2": 48,
+        "filters3": 32,
+        "kernel_size": 3,
+        "dropout": 0.323318158079492,
+        "dense_units": 96,
+        "learning_rate": 0.004594450465104588
+      }
+    },
+    {
+      "number": 1,
+      "value": 0.6412368655204773,
+      "params": {
+        "filters1": 64,
+        "filters2": 32,
+        "filters3": 32,
+        "kernel_size": 5,
+        "dropout": 0.18588993443941076,
+        "dense_units": 192,
+        "learning_rate": 0.00010990442121306043
+      }
+    },
+    {
+      "number": 2,
+      "value": 0.5723971724510193,
+      "params": {
+        "filters1": 48,
+        "filters2": 64,
+        "filters3": 64,
+        "kernel_size": 3,
+        "dropout": 0.15166319825241567,
+        "dense_units": 192,
+        "learning_rate": 0.0002006969172012187
+      }
+    },
+    {
+      "number": 3,
+      "value": 0.6915394067764282,
+      "params": {
+        "filters1": 48,
+        "filters2": 128,
+        "filters3": 32,
+        "kernel_size": 5,
+        "dropout": 0.3715297088499582,
+        "dense_units": 192,
+        "learning_rate": 0.0018280209961053099
+      }
+    },
+    {
+      "number": 4,
+      "value": 0.6203218519687652,
+      "params": {
+        "filters1": 32,
+        "filters2": 96,
+        "filters3": 128,
+        "kernel_size": 3,
+        "dropout": 0.13718165355745926,
+        "dense_units": 64,
+        "learning_rate": 0.0017831653697870675
+      }
+    }
+  ]
+}

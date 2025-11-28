@@ -42,17 +42,26 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--folds", type=int, default=5)
     parser.add_argument("--n-iter", type=int, default=30)
     parser.add_argument("--random-state", type=int, default=42)
+    parser.add_argument("--binary", action="store_true", help="Merge Moderate and Bad into a single Faulty class.")
     return parser.parse_args()
 
 
-def load_dataset(features_path: Path) -> pd.DataFrame:
+def load_dataset(features_path: Path, binary: bool = False) -> pd.DataFrame:
     if not features_path.exists():
         raise FileNotFoundError(f"Feature file not found: {features_path}")
     df = pd.read_csv(features_path)
     required = {"file", "label"}
     if not required.issubset(df.columns):
         raise ValueError(f"Feature file must contain columns: {required}")
-    df["label_id"] = df["label"].str.lower().map(LABEL_MAP)
+    
+    # Map labels
+    label_map = LABEL_MAP.copy()
+    if binary:
+        # Merge Moderate (1) into Bad (2) -> both become 1 (Faulty)
+        # Good (0) remains 0
+        label_map = {"good": 0, "moderate": 1, "bad": 1}
+        
+    df["label_id"] = df["label"].str.lower().map(label_map)
     if df["label_id"].isna().any():
         raise ValueError("Found labels outside {good, moderate, bad}.")
     return df
@@ -66,7 +75,10 @@ def to_serializable(obj):
     return obj
 
 
-def get_models(random_state: int) -> Dict[str, Dict]:
+def get_models(random_state: int, binary: bool = False) -> Dict[str, Dict]:
+    xgb_objective = "binary:logistic" if binary else "multi:softprob"
+    xgb_eval_metric = "logloss" if binary else "mlogloss"
+    
     models: Dict[str, Dict] = {
         "gbc": {
             "estimator": GradientBoostingClassifier(random_state=random_state),
@@ -81,8 +93,8 @@ def get_models(random_state: int) -> Dict[str, Dict]:
         },
         "xgboost": {
             "estimator": XGBClassifier(
-                objective="multi:softprob",
-                eval_metric="mlogloss",
+                objective=xgb_objective,
+                eval_metric=xgb_eval_metric,
                 random_state=random_state,
                 tree_method="hist",
             ),
@@ -161,7 +173,7 @@ def tune_model(
 
 def main() -> None:
     args = parse_args()
-    df = load_dataset(args.features)
+    df = load_dataset(args.features, binary=args.binary)
 
     feature_cols = [col for col in df.columns if col not in {"file", "label", "window_index", "label_id"}]
     X = df[feature_cols]
@@ -172,7 +184,7 @@ def main() -> None:
     output_dir = args.output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    models = get_models(args.random_state)
+    models = get_models(args.random_state, binary=args.binary)
     summaries: List[Dict] = []
     best_global = None
 

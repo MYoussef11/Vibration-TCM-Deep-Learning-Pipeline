@@ -7,6 +7,7 @@ from typing import Dict, List
 
 import numpy as np
 import pandas as pd
+import pywt
 
 
 @dataclass
@@ -75,6 +76,25 @@ class FeatureExtractor:
         }
         return features
 
+    def _wavelet_features(self, window: np.ndarray) -> Dict[str, float]:
+        """Compute Wavelet Packet Decomposition (WPD) energy features."""
+        # Use 'db4' wavelet and level 3 decomposition
+        wavelet = 'db4'
+        level = 3
+        
+        # Perform Wavelet Packet Decomposition
+        wp = pywt.WaveletPacket(data=window, wavelet=wavelet, mode='symmetric', maxlevel=level)
+        
+        features = {}
+        # Extract energy from nodes at the specified level
+        nodes = [node.path for node in wp.get_level(level, 'natural')]
+        for i, node_path in enumerate(nodes):
+            node_data = wp[node_path].data
+            energy = float(np.sum(np.square(node_data)))
+            features[f"wpd_energy_lvl{level}_node{i}"] = energy
+            
+        return features
+
     def describe_window(
         self,
         window: np.ndarray,
@@ -85,4 +105,5 @@ class FeatureExtractor:
         features = {}
         features.update({f"{prefix}_time_{k}": v for k, v in self._time_domain_features(window).items()})
         features.update({f"{prefix}_freq_{k}": v for k, v in self._frequency_domain_features(window, sampling_rate).items()})
+        features.update({f"{prefix}_wpd_{k}": v for k, v in self._wavelet_features(window).items()})
         return features

@@ -80,11 +80,7 @@ def _load_or_create_config(
     )
 
 
-def _standardize_window(window: np.ndarray) -> np.ndarray:
-    mean = window.mean(axis=0, keepdims=True)
-    std = window.std(axis=0, keepdims=True)
-    std[std == 0] = 1.0
-    return (window - mean) / std
+
 
 
 def _channel_slug(channel: str) -> str:
@@ -172,12 +168,12 @@ def main() -> None:
         if not len(bounds):
             continue
         for idx, window in enumerate(windows):
-            normalized = _standardize_window(window)
+            # normalized = _standardize_window(window)
             features: Dict[str, float] = {}
             for channel_idx, channel in enumerate(CORE_CHANNELS):
                 slug = _channel_slug(channel)
                 channel_features = extractor.describe_window(
-                    normalized[:, channel_idx],
+                    window[:, channel_idx],
                     sampling_rate=config.target_sampling_rate_hz,
                     prefix=slug,
                 )

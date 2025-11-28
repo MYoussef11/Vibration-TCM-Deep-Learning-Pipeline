@@ -9,3 +9,4 @@ tensorflow==2.15.1
 xgboost==2.0.3
 optuna==3.6.1
 pycaret==3.3.2
+PyWavelets

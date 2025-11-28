@@ -1,0 +1,67 @@
+{
+  "best_value": 0.6435557007789612,
+  "best_params": {
+    "filters1": 16,
+    "filters2": 64,
+    "dropout": 0.27215646825053386,
+    "dense_units": 64,
+    "learning_rate": 0.004674617612985473
+  },
+  "trials": [
+    {
+      "number": 0,
+      "value": 0.6435557007789612,
+      "params": {
+        "filters1": 16,
+        "filters2": 64,
+        "dropout": 0.27215646825053386,
+        "dense_units": 64,
+        "learning_rate": 0.004674617612985473
+      }
+    },
+    {
+      "number": 1,
+      "value": 0.6435557007789612,
+      "params": {
+        "filters1": 16,
+        "filters2": 32,
+        "dropout": 0.45112144487758676,
+        "dense_units": 64,
+        "learning_rate": 0.002023060199263279
+      }
+    },
+    {
+      "number": 2,
+      "value": 0.6435557007789612,
+      "params": {
+        "filters1": 16,
+        "filters2": 128,
+        "dropout": 0.49961740709238434,
+        "dense_units": 64,
+        "learning_rate": 0.00028305272247211295
+      }
+    },
+    {
+      "number": 3,
+      "value": 0.6435557007789612,
+      "params": {
+        "filters1": 64,
+        "filters2": 32,
+        "dropout": 0.2788351589504705,
+        "dense_units": 128,
+        "learning_rate": 0.001021963356548512
+      }
+    },
+    {
+      "number": 4,
+      "value": 0.5570701330900192,
+      "params": {
+        "filters1": 32,
+        "filters2": 32,
+        "dropout": 0.4456305369114154,
+        "dense_units": 64,
+        "learning_rate": 0.0001136456663380589
+      }
+    }
+  ]
+}

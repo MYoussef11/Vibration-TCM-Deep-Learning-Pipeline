@@ -1,0 +1,28 @@
+Model: "cnn2d"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ cnn2d_input (InputLayer)    [(None, 9, 1, 1)]         0         
+                                                                 
+ conv2d_2 (Conv2D)           (None, 9, 1, 32)          320       
+                                                                 
+ batch_normalization_7 (Bat  (None, 9, 1, 32)          128       
+ chNormalization)                                                
+                                                                 
+ conv2d_3 (Conv2D)           (None, 9, 1, 64)          18496     
+                                                                 
+ batch_normalization_8 (Bat  (None, 9, 1, 64)          256       
+ chNormalization)                                                
+                                                                 
+ global_average_pooling2d_1  (None, 64)                0         
+  (GlobalAveragePooling2D)                                       
+                                                                 
+ dropout_11 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_16 (Dense)            (None, 3)                 195       
+                                                                 
+=================================================================
+Total params: 19395 (75.76 KB)
+Trainable params: 19203 (75.01 KB)
+Non-trainable params: 192 (768.00 Byte)
+_________________________________________________________________

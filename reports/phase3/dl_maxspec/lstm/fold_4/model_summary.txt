@@ -1,0 +1,23 @@
+Model: "lstm"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ lstm_input (InputLayer)     [(None, 100, 6)]          0         
+                                                                 
+ bidirectional_6 (Bidirecti  (None, 100, 128)          36352     
+ onal)                                                           
+                                                                 
+ bidirectional_7 (Bidirecti  (None, 64)                41216     
+ onal)                                                           
+                                                                 
+ dropout_8 (Dropout)         (None, 64)                0         
+                                                                 
+ dense_11 (Dense)            (None, 64)                4160      
+                                                                 
+ dense_12 (Dense)            (None, 3)                 195       
+                                                                 
+=================================================================
+Total params: 81923 (320.01 KB)
+Trainable params: 81923 (320.01 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________

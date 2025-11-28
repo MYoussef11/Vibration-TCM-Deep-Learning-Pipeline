@@ -1,6 +1,6 @@
 # Vibration Tool Condition Monitoring Pipeline
 
-End-to-end deep learning pipeline for classifying machine tool condition (Good, Moderate, Bad) from vibration sensor data. The work is organized into three phases:
+End-to-end deep learning pipeline for classifying machine tool condition (Binary: Good vs Faulty) from vibration sensor data. The work is organized into three phases:
 
 1. **Data Verification & Preprocessing** – validate sampling rates, clean raw signals, and define the preprocessing recipe.
 2. **Unsupervised Analysis** – extract handcrafted features, explore clusters (PCA/UMAP + KMeans/GMM), and confirm the final labeling strategy.
@@ -72,18 +72,27 @@ python scripts/tune_classical_models.py
 
 Artifacts in `reports/phase3/classical_tuning/`.
 
-- Train deep learning models with GroupKFold (1D CNN, LSTM, 2D CNN, Hybrid):
+- Train and Tune Deep Learning Models (Optuna + GroupKFold):
+  
+  This script handles hyperparameter tuning, final model training, and evaluation (Confusion Matrix, Classification Report).
+
+```bash
+# Train 1D CNN
+python scripts/tune_dl_models.py --dataset artifacts/phase3/phase3_datasets.npz --model cnn1d --trials 15 --epochs 40
+
+# Train LSTM
+python scripts/tune_dl_models.py --dataset artifacts/phase3/phase3_datasets.npz --model lstm --trials 15 --epochs 40
+
+# Train 2D CNN (Spectrograms)
+python scripts/tune_dl_models.py --dataset artifacts/phase3/phase3_datasets.npz --model cnn2d --trials 15 --epochs 40
+```
+
+Artifacts in `reports/phase3/dl_tuning/`.
+
+- (Optional) Baseline Training without Tuning:
 
 ```bash
 python scripts/train_phase3_models.py
-```
-
-Artifacts in `reports/phase3/dl/`.
-
-- Max-spec trial (100-sample windows, 64-point STFT):
-
-```bash
-python scripts/train_phase3_models.py --dataset artifacts/phase3_max_spec/phase3_datasets.npz --output-dir reports/phase3/dl_maxspec
 ```
 
 ## Reports

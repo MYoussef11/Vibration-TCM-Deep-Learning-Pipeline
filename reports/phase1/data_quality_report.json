@@ -1,0 +1,1570 @@
+{
+  "summary": {
+    "missing_data": [],
+    "outliers": [
+      "Bad data__1.csv::Acceleration X(g)",
+      "Bad data__1.csv::Acceleration Y(g)",
+      "Bad data__1.csv::Acceleration Z(g)",
+      "Bad data__1.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__1.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__2.csv::Acceleration X(g)",
+      "Bad data__2.csv::Acceleration Y(g)",
+      "Bad data__2.csv::Acceleration Z(g)",
+      "Bad data__2.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__3.csv::Acceleration X(g)",
+      "Bad data__3.csv::Acceleration Y(g)",
+      "Bad data__3.csv::Acceleration Z(g)",
+      "Bad data__3.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__3.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__4.csv::Acceleration X(g)",
+      "Bad data__4.csv::Acceleration Y(g)",
+      "Bad data__4.csv::Acceleration Z(g)",
+      "Bad data__4.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__4.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__5.csv::Acceleration X(g)",
+      "Bad data__5.csv::Acceleration Y(g)",
+      "Bad data__5.csv::Acceleration Z(g)",
+      "Bad data__5.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__5.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__6.csv::Acceleration X(g)",
+      "Bad data__6.csv::Acceleration Y(g)",
+      "Bad data__6.csv::Acceleration Z(g)",
+      "Bad data__6.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__6.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__6.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__7.csv::Acceleration X(g)",
+      "Bad data__7.csv::Acceleration Y(g)",
+      "Bad data__7.csv::Acceleration Z(g)",
+      "Bad data__7.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__7.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__7.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__8.csv::Acceleration X(g)",
+      "Bad data__8.csv::Acceleration Y(g)",
+      "Bad data__8.csv::Acceleration Z(g)",
+      "Bad data__8.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__8.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__8.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__1.csv::Acceleration X(g)",
+      "Good data__1.csv::Acceleration Y(g)",
+      "Good data__1.csv::Acceleration Z(g)",
+      "Good data__1.csv::Angular velocity X(\u00b0/s)",
+      "Good data__1.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__2.csv::Acceleration X(g)",
+      "Good data__2.csv::Acceleration Y(g)",
+      "Good data__2.csv::Acceleration Z(g)",
+      "Good data__2.csv::Angular velocity X(\u00b0/s)",
+      "Good data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__3.csv::Acceleration X(g)",
+      "Good data__3.csv::Acceleration Y(g)",
+      "Good data__3.csv::Acceleration Z(g)",
+      "Good data__3.csv::Angular velocity X(\u00b0/s)",
+      "Good data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__3.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__4.csv::Acceleration X(g)",
+      "Good data__4.csv::Acceleration Y(g)",
+      "Good data__4.csv::Acceleration Z(g)",
+      "Good data__4.csv::Angular velocity X(\u00b0/s)",
+      "Good data__4.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__5.csv::Acceleration X(g)",
+      "Good data__5.csv::Acceleration Y(g)",
+      "Good data__5.csv::Acceleration Z(g)",
+      "Good data__5.csv::Angular velocity X(\u00b0/s)",
+      "Good data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__5.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__6.csv::Acceleration X(g)",
+      "Good data__6.csv::Acceleration Y(g)",
+      "Good data__6.csv::Acceleration Z(g)",
+      "Good data__6.csv::Angular velocity X(\u00b0/s)",
+      "Good data__6.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__6.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__7.csv::Acceleration X(g)",
+      "Good data__7.csv::Acceleration Y(g)",
+      "Good data__7.csv::Acceleration Z(g)",
+      "Good data__7.csv::Angular velocity X(\u00b0/s)",
+      "Good data__7.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__7.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__8.csv::Acceleration X(g)",
+      "Good data__8.csv::Acceleration Y(g)",
+      "Good data__8.csv::Acceleration Z(g)",
+      "Good data__8.csv::Angular velocity X(\u00b0/s)",
+      "Good data__8.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__8.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__1.csv::Acceleration X(g)",
+      "Moderate data__1.csv::Acceleration Y(g)",
+      "Moderate data__1.csv::Acceleration Z(g)",
+      "Moderate data__1.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__1.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__2.csv::Acceleration X(g)",
+      "Moderate data__2.csv::Acceleration Y(g)",
+      "Moderate data__2.csv::Acceleration Z(g)",
+      "Moderate data__2.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__3.csv::Acceleration X(g)",
+      "Moderate data__3.csv::Acceleration Y(g)",
+      "Moderate data__3.csv::Acceleration Z(g)",
+      "Moderate data__3.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__3.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__4.csv::Acceleration X(g)",
+      "Moderate data__4.csv::Acceleration Y(g)",
+      "Moderate data__4.csv::Acceleration Z(g)",
+      "Moderate data__4.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__4.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__5.csv::Acceleration X(g)",
+      "Moderate data__5.csv::Acceleration Y(g)",
+      "Moderate data__5.csv::Acceleration Z(g)",
+      "Moderate data__5.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__5.csv::Angular velocity Z(\u00b0/s)"
+    ],
+    "flatlines": [
+      "Good data__2.csv::Angular velocity Z(\u00b0/s)"
+    ],
+    "drift": [
+      "Bad data__1.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__1.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__2.csv::Acceleration X(g)",
+      "Bad data__2.csv::Acceleration Y(g)",
+      "Bad data__2.csv::Acceleration Z(g)",
+      "Bad data__2.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__3.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__4.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__5.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__5.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__7.csv::Acceleration X(g)",
+      "Bad data__7.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__7.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__7.csv::Angular velocity Z(\u00b0/s)",
+      "Bad data__8.csv::Acceleration Y(g)",
+      "Bad data__8.csv::Acceleration Z(g)",
+      "Bad data__8.csv::Angular velocity X(\u00b0/s)",
+      "Bad data__8.csv::Angular velocity Y(\u00b0/s)",
+      "Bad data__8.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__1.csv::Angular velocity X(\u00b0/s)",
+      "Good data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__2.csv::Angular velocity X(\u00b0/s)",
+      "Good data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__3.csv::Angular velocity X(\u00b0/s)",
+      "Good data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__4.csv::Angular velocity X(\u00b0/s)",
+      "Good data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__5.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__6.csv::Acceleration Z(g)",
+      "Good data__6.csv::Angular velocity X(\u00b0/s)",
+      "Good data__6.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__7.csv::Acceleration X(g)",
+      "Good data__7.csv::Angular velocity X(\u00b0/s)",
+      "Good data__7.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__7.csv::Angular velocity Z(\u00b0/s)",
+      "Good data__8.csv::Acceleration Y(g)",
+      "Good data__8.csv::Acceleration Z(g)",
+      "Good data__8.csv::Angular velocity X(\u00b0/s)",
+      "Good data__8.csv::Angular velocity Y(\u00b0/s)",
+      "Good data__8.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__1.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__1.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__1.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__2.csv::Acceleration X(g)",
+      "Moderate data__2.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__2.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__2.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__3.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__3.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__3.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__4.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__4.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__4.csv::Angular velocity Z(\u00b0/s)",
+      "Moderate data__5.csv::Acceleration Z(g)",
+      "Moderate data__5.csv::Angular velocity X(\u00b0/s)",
+      "Moderate data__5.csv::Angular velocity Y(\u00b0/s)",
+      "Moderate data__5.csv::Angular velocity Z(\u00b0/s)"
+    ]
+  },
+  "per_file": {
+    "Bad data__1.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 10,
+          "outlier_ratio": 0.012285012285012284,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00022106058250032586,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 121,
+          "outlier_ratio": 0.14864864864864866,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 1.2634819879477048e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 80,
+          "outlier_ratio": 0.09828009828009827,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00017295621969730092,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 55,
+          "outlier_ratio": 0.06756756756756757,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.003742219268278736,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 28,
+          "outlier_ratio": 0.0343980343980344,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.002243716312002427,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 144,
+          "outlier_ratio": 0.1769041769041769,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0033999438877954117,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__2.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 3,
+          "outlier_ratio": 0.01282051282051282,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0020339694412891476,
+          "drift_flag": true
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 25,
+          "outlier_ratio": 0.10683760683760683,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.006437299775209214,
+          "drift_flag": true
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 2,
+          "outlier_ratio": 0.008547008547008548,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.003886271826680901,
+          "drift_flag": true
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 35,
+          "outlier_ratio": 0.14957264957264957,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.14380566535935857,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 18,
+          "outlier_ratio": 0.07692307692307693,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.03666188488304889,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 51,
+          "outlier_ratio": 0.21794871794871795,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.07641289493798707,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__3.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 115,
+          "outlier_ratio": 0.10195035460992907,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -2.0719374144074262e-05,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 50,
+          "outlier_ratio": 0.044326241134751775,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 4.473412215697102e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 18,
+          "outlier_ratio": 0.015957446808510637,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 6.201673239120721e-06,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 66,
+          "outlier_ratio": 0.05851063829787234,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00031097026535686104,
+          "drift_flag": false
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 139,
+          "outlier_ratio": 0.12322695035460993,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.001089374329615246,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 50,
+          "outlier_ratio": 0.044326241134751775,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0008534549691356427,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__4.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 75,
+          "outlier_ratio": 0.05639097744360902,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 5.63827265489526e-07,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 60,
+          "outlier_ratio": 0.045112781954887216,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 3.522280154164489e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 126,
+          "outlier_ratio": 0.09473684210526316,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -3.634933421714748e-05,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 104,
+          "outlier_ratio": 0.07819548872180451,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0038851168468842495,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 114,
+          "outlier_ratio": 0.08571428571428572,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0004964622782454304,
+          "drift_flag": false
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 122,
+          "outlier_ratio": 0.09172932330827067,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.002907711204466639,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__5.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 83,
+          "outlier_ratio": 0.060583941605839416,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00031497766834297073,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 242,
+          "outlier_ratio": 0.17664233576642335,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 9.77630349839024e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 111,
+          "outlier_ratio": 0.08102189781021898,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 6.479496545137785e-05,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 191,
+          "outlier_ratio": 0.13941605839416057,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.003033843014366447,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 95,
+          "outlier_ratio": 0.06934306569343066,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0029444878150436745,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 247,
+          "outlier_ratio": 0.1802919708029197,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0010227491564746448,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__6.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 137,
+          "outlier_ratio": 0.13160422670509125,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -4.910283262760537e-05,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 153,
+          "outlier_ratio": 0.14697406340057637,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 1.3836937707803446e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 114,
+          "outlier_ratio": 0.10951008645533142,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -1.1204224766115376e-06,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 118,
+          "outlier_ratio": 0.11335254562920269,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00021723610876568295,
+          "drift_flag": false
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 139,
+          "outlier_ratio": 0.1335254562920269,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0004353787124170073,
+          "drift_flag": false
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 172,
+          "outlier_ratio": 0.16522574447646493,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00035679298199161095,
+          "drift_flag": false
+        }
+      }
+    },
+    "Bad data__7.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 93,
+          "outlier_ratio": 0.11218335343787696,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0007067563259853,
+          "drift_flag": true
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 96,
+          "outlier_ratio": 0.1158021712907117,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00011446762639649469,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 30,
+          "outlier_ratio": 0.03618817852834741,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0004683861546155952,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 76,
+          "outlier_ratio": 0.09167671893848009,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.005496112120268268,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 59,
+          "outlier_ratio": 0.07117008443908324,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0022195918974583476,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 128,
+          "outlier_ratio": 0.15440289505428226,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.007375149277730936,
+          "drift_flag": true
+        }
+      }
+    },
+    "Bad data__8.csv": {
+      "label": "bad",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 22,
+          "outlier_ratio": 0.1301775147928994,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00011277413556128032,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 27,
+          "outlier_ratio": 0.15976331360946747,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0005342101732795532,
+          "drift_flag": true
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 8,
+          "outlier_ratio": 0.047337278106508875,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00157913580431781,
+          "drift_flag": true
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 19,
+          "outlier_ratio": 0.11242603550295859,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.05204221426613818,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 34,
+          "outlier_ratio": 0.20118343195266272,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.006156784524221424,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 41,
+          "outlier_ratio": 0.24260355029585798,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.03877478653639246,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__1.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 58,
+          "outlier_ratio": 0.07231920199501247,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -1.4003788175317116e-05,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 32,
+          "outlier_ratio": 0.0399002493765586,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 3.2040465394919696e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 158,
+          "outlier_ratio": 0.1970074812967581,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0002500932618790547,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 32,
+          "outlier_ratio": 0.0399002493765586,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0034457333369809877,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 57,
+          "outlier_ratio": 0.07107231920199501,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0002683729815364303,
+          "drift_flag": false
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 91,
+          "outlier_ratio": 0.11346633416458853,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0011876002825173372,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__2.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 107,
+          "outlier_ratio": 0.11836283185840708,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0003319976739946237,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 92,
+          "outlier_ratio": 0.10176991150442478,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0001684789616869104,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 178,
+          "outlier_ratio": 0.19690265486725664,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0003439733579585151,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 116,
+          "outlier_ratio": 0.12831858407079647,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.001620646108565785,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 153,
+          "outlier_ratio": 0.16924778761061948,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0008676414616039797,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 133,
+          "outlier_ratio": 0.14712389380530974,
+          "flatline_segments": 1,
+          "flatline_longest_samples": 70,
+          "drift_slope_per_sec": 0.0007752642042824276,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__3.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 32,
+          "outlier_ratio": 0.03347280334728033,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00012924055332676096,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 33,
+          "outlier_ratio": 0.034518828451882845,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00017451933646988788,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 81,
+          "outlier_ratio": 0.08472803347280335,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 5.0185109087241906e-05,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 74,
+          "outlier_ratio": 0.07740585774058577,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.005264706517190556,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 55,
+          "outlier_ratio": 0.05753138075313807,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0015972022259101268,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 28,
+          "outlier_ratio": 0.029288702928870293,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00019089277020392038,
+          "drift_flag": false
+        }
+      }
+    },
+    "Good data__4.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 4,
+          "outlier_ratio": 0.006201550387596899,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 6.0355194676335986e-05,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 11,
+          "outlier_ratio": 0.017054263565891473,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 3.7436122890932604e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 74,
+          "outlier_ratio": 0.11472868217054263,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00022691445862699027,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 57,
+          "outlier_ratio": 0.08837209302325581,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0010541896347190185,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 47,
+          "outlier_ratio": 0.07286821705426356,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00034976245394831794,
+          "drift_flag": false
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 84,
+          "outlier_ratio": 0.13023255813953488,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00307818196069065,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__5.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 124,
+          "outlier_ratio": 0.15270935960591134,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -1.6320887807110552e-05,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 73,
+          "outlier_ratio": 0.08990147783251232,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0001834189258274812,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 197,
+          "outlier_ratio": 0.24261083743842365,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00011861672922188592,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 85,
+          "outlier_ratio": 0.10467980295566502,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 7.485082350067175e-05,
+          "drift_flag": false
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 156,
+          "outlier_ratio": 0.1921182266009852,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.002425021715212037,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 77,
+          "outlier_ratio": 0.09482758620689655,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.004252641630878246,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__6.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 68,
+          "outlier_ratio": 0.10381679389312977,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00017953835012457406,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 6,
+          "outlier_ratio": 0.00916030534351145,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00046086099607167084,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 76,
+          "outlier_ratio": 0.11603053435114503,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.003808878044002101,
+          "drift_flag": true
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 22,
+          "outlier_ratio": 0.03358778625954199,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.015868722390870962,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 32,
+          "outlier_ratio": 0.04885496183206107,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.000498218891129521,
+          "drift_flag": false
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 18,
+          "outlier_ratio": 0.02748091603053435,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0021313685455876994,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__7.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 22,
+          "outlier_ratio": 0.029490616621983913,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0006496764626684384,
+          "drift_flag": true
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 13,
+          "outlier_ratio": 0.01742627345844504,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00017855281428159534,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 40,
+          "outlier_ratio": 0.05361930294906166,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -5.612156544947957e-05,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 21,
+          "outlier_ratio": 0.028150134048257374,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.017280962960558685,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 2,
+          "outlier_ratio": 0.002680965147453083,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.004279681754310791,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 21,
+          "outlier_ratio": 0.028150134048257374,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.008620291908023074,
+          "drift_flag": true
+        }
+      }
+    },
+    "Good data__8.csv": {
+      "label": "good",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 48,
+          "outlier_ratio": 0.12598425196850394,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00037267592536423407,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 50,
+          "outlier_ratio": 0.13123359580052493,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0005942809638978354,
+          "drift_flag": true
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 65,
+          "outlier_ratio": 0.17060367454068243,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0016574944272703498,
+          "drift_flag": true
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 30,
+          "outlier_ratio": 0.07874015748031496,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.001008509762603561,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 40,
+          "outlier_ratio": 0.10498687664041995,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.007294400034053431,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 41,
+          "outlier_ratio": 0.10761154855643044,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.016036471473577434,
+          "drift_flag": true
+        }
+      }
+    },
+    "Moderate data__1.csv": {
+      "label": "moderate",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 75,
+          "outlier_ratio": 0.06989748369058714,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -2.3797476255279532e-06,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 92,
+          "outlier_ratio": 0.08574091332712022,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00015236452768537092,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 94,
+          "outlier_ratio": 0.08760484622553588,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -8.21100676097377e-05,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 94,
+          "outlier_ratio": 0.08760484622553588,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0012629428557315292,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 41,
+          "outlier_ratio": 0.03821062441752097,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.001685715288907706,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 143,
+          "outlier_ratio": 0.13327120223671948,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0013248943885431775,
+          "drift_flag": true
+        }
+      }
+    },
+    "Moderate data__2.csv": {
+      "label": "moderate",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 31,
+          "outlier_ratio": 0.06567796610169492,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0008554385287345695,
+          "drift_flag": true
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 27,
+          "outlier_ratio": 0.057203389830508475,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0002634706428964247,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 23,
+          "outlier_ratio": 0.048728813559322036,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00021197510246235917,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 63,
+          "outlier_ratio": 0.13347457627118645,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00651090381536841,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 35,
+          "outlier_ratio": 0.07415254237288135,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.001779512688780452,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 40,
+          "outlier_ratio": 0.0847457627118644,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00873746373478954,
+          "drift_flag": true
+        }
+      }
+    },
+    "Moderate data__3.csv": {
+      "label": "moderate",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 175,
+          "outlier_ratio": 0.1744765702891326,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0003555766348823493,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 130,
+          "outlier_ratio": 0.1296111665004985,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 8.239434644366317e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 125,
+          "outlier_ratio": 0.12462612163509472,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -5.065795741800908e-06,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 155,
+          "outlier_ratio": 0.15453639082751744,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0029946273029759266,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 158,
+          "outlier_ratio": 0.1575274177467597,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0016943169300107019,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 102,
+          "outlier_ratio": 0.1016949152542373,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.001674058162226695,
+          "drift_flag": true
+        }
+      }
+    },
+    "Moderate data__4.csv": {
+      "label": "moderate",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 185,
+          "outlier_ratio": 0.18781725888324874,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.00020490067841669456,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 49,
+          "outlier_ratio": 0.049746192893401014,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 3.410304607295544e-05,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 125,
+          "outlier_ratio": 0.12690355329949238,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0003813543137071746,
+          "drift_flag": false
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 102,
+          "outlier_ratio": 0.10355329949238579,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0022203965559888473,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 123,
+          "outlier_ratio": 0.12487309644670051,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.005598629719052993,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 108,
+          "outlier_ratio": 0.10964467005076142,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.0005719380495926557,
+          "drift_flag": true
+        }
+      }
+    },
+    "Moderate data__5.csv": {
+      "label": "moderate",
+      "channels": {
+        "Acceleration X(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 8,
+          "outlier_ratio": 0.0213903743315508,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0002325277054985769,
+          "drift_flag": false
+        },
+        "Acceleration Y(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 14,
+          "outlier_ratio": 0.0374331550802139,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.00040800561785051426,
+          "drift_flag": false
+        },
+        "Acceleration Z(g)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 24,
+          "outlier_ratio": 0.06417112299465241,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.009254917607462013,
+          "drift_flag": true
+        },
+        "Angular velocity X(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 25,
+          "outlier_ratio": 0.06684491978609626,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.018540348453474447,
+          "drift_flag": true
+        },
+        "Angular velocity Y(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 8,
+          "outlier_ratio": 0.0213903743315508,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": -0.0017756911995665237,
+          "drift_flag": true
+        },
+        "Angular velocity Z(\u00b0/s)": {
+          "missing_count": 0,
+          "missing_ratio": 0.0,
+          "outlier_count": 20,
+          "outlier_ratio": 0.053475935828877004,
+          "flatline_segments": 0,
+          "flatline_longest_samples": 0,
+          "drift_slope_per_sec": 0.006442687740125293,
+          "drift_flag": true
+        }
+      }
+    }
+  }
+}

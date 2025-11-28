@@ -1,0 +1,2 @@
+Model,Accuracy,AUC,Recall,Prec.,F1,Kappa,MCC
+Gradient Boosting Classifier,0.9179,0.9888,0.9179,0.9189,0.9176,0.873,0.8738

@@ -187,6 +187,7 @@ def main() -> None:
     models = get_models(args.random_state, binary=args.binary)
     summaries: List[Dict] = []
     best_global = None
+    best_estimator = None  # Keep track of best estimator separately
 
     for model_id, spec in models.items():
         print(f"\n=== Tuning {model_id.upper()} ===")
@@ -202,23 +203,54 @@ def main() -> None:
             random_state=args.random_state,
         )
         summaries.append(summary)
-        (output_dir / f"{model_id}_summary.json").write_text(
-            json.dumps(summary, indent=2, default=to_serializable),
-            encoding="utf-8",
-        )
-        if best_global is None or summary["best_score"] > best_global["best_score"]:
-            best_global = {**summary, "estimator_repr": repr(estimator)}
+        summary["estimator_repr"] = str(estimator)
+        
+        # Save individual model summary
+        with open(output_dir / f"{model_id}_summary.json", "w") as f:
+            json.dump(summary, f, indent=2, default=to_serializable)
 
-    (output_dir / "model_comparison.json").write_text(
-        json.dumps(summaries, indent=2, default=to_serializable),
-        encoding="utf-8",
-    )
-    if best_global:
-        (output_dir / "best_model.json").write_text(
-            json.dumps(best_global, indent=2, default=to_serializable),
-            encoding="utf-8",
-        )
-        print(f"\nBest model: {best_global['model']} (accuracy={best_global['best_score']:.3f})")
+        if best_global is None or summary["best_score"] > best_global["best_score"]:
+            best_global = summary.copy()  # Copy the summary dict
+            best_estimator = estimator  # Keep estimator separate
+
+    # Save comparison
+    with open(output_dir / "model_comparison.json", "w") as f:
+        json.dump(summaries, f, indent=2, default=to_serializable)
+
+    # Save best model details (without estimator object)
+    with open(output_dir / "best_model.json", "w") as f:
+        json.dump(best_global, f, indent=2, default=to_serializable)
+
+    # ===== NEW: Save best model and metadata =====
+    import joblib
+    
+    # Save the best estimator
+    model_path = output_dir / f"{best_global['model']}_best_estimator.pkl"
+    joblib.dump(best_estimator, model_path)
+    print(f"\n✅ Best model saved to: {model_path}")
+    
+    # Save feature names for later use
+    feature_names_path = output_dir / "feature_names.json"
+    with open(feature_names_path, "w") as f:
+        json.dump({"features": feature_cols}, f, indent=2)
+    print(f"✅ Feature names saved to: {feature_names_path}")
+    
+    # Save metadata about the best model
+    metadata = {
+        "model_type": best_global["model"],
+        "accuracy": best_global["best_score"],
+        "n_features": len(feature_cols),
+        "binary_classification": args.binary,
+        "training_date": str(pd.Timestamp.now()),
+        "model_file": str(model_path.name),
+        "feature_file": str(feature_names_path.name)
+    }
+    metadata_path = output_dir / "model_metadata.json"
+    with open(metadata_path, "w") as f:
+        json.dump(metadata, f, indent=2)
+    print(f"✅ Metadata saved to: {metadata_path}")
+
+    print(f"\nBest model: {best_global['model']} (accuracy={best_global['best_score']:.3f})")
 
 
 if __name__ == "__main__":

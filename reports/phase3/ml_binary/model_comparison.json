@@ -1,0 +1,121 @@
+[
+  {
+    "model": "gbc",
+    "best_score": 0.8131047512766971,
+    "best_params": {
+      "clf__subsample": 1.0,
+      "clf__n_estimators": 400,
+      "clf__min_samples_split": 5,
+      "clf__min_samples_leaf": 2,
+      "clf__max_depth": 2,
+      "clf__learning_rate": 0.12
+    },
+    "classification_report": {
+      "0": {
+        "precision": 0.7565543071161048,
+        "recall": 0.697754749568221,
+        "f1-score": 0.7259658580413297,
+        "support": 579.0
+      },
+      "1": {
+        "precision": 0.8419150858175248,
+        "recall": 0.8775894538606404,
+        "f1-score": 0.8593822037805441,
+        "support": 1062.0
+      },
+      "accuracy": 0.8141377209018891,
+      "macro avg": {
+        "precision": 0.7992346964668149,
+        "recall": 0.7876721017144307,
+        "f1-score": 0.7926740309109369,
+        "support": 1641.0
+      },
+      "weighted avg": {
+        "precision": 0.8117969317236052,
+        "recall": 0.8141377209018891,
+        "f1-score": 0.8123084291412966,
+        "support": 1641.0
+      }
+    },
+    "estimator_repr": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('clf',\n                 GradientBoostingClassifier(learning_rate=0.12, max_depth=2,\n                                            min_samples_leaf=2,\n                                            min_samples_split=5,\n                                            n_estimators=400,\n                                            random_state=42))])"
+  },
+  {
+    "model": "xgboost",
+    "best_score": 0.8117159750445093,
+    "best_params": {
+      "clf__subsample": 1.0,
+      "clf__reg_lambda": 0.01,
+      "clf__n_estimators": 494,
+      "clf__max_depth": 5,
+      "clf__learning_rate": 0.004641588833612777,
+      "clf__colsample_bytree": 0.65
+    },
+    "classification_report": {
+      "0": {
+        "precision": 0.7641325536062378,
+        "recall": 0.6770293609671848,
+        "f1-score": 0.717948717948718,
+        "support": 579.0
+      },
+      "1": {
+        "precision": 0.8342198581560284,
+        "recall": 0.8860640301318268,
+        "f1-score": 0.8593607305936073,
+        "support": 1062.0
+      },
+      "accuracy": 0.8123095673369897,
+      "macro avg": {
+        "precision": 0.7991762058811331,
+        "recall": 0.7815466955495058,
+        "f1-score": 0.7886547242711626,
+        "support": 1641.0
+      },
+      "weighted avg": {
+        "precision": 0.809490699512318,
+        "recall": 0.8123095673369897,
+        "f1-score": 0.8094658157115896,
+        "support": 1641.0
+      }
+    },
+    "estimator_repr": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('clf',\n                 XGBClassifier(base_score=None, booster=None, callbacks=None,\n                               colsample_bylevel=None, colsample_bynode=None,\n                               colsample_bytree=0.65, device=None,\n                               early_stopping_rounds=None,\n                               enable_categorical=False, eval_metric='logloss',\n                               feature_types=None, gamma=None, grow_policy=None,\n                               importance_type=None,\n                               interaction_constraints=None,\n                               learning_rate=0.004641588833612777, max_bin=None,\n                               max_cat_threshold=None, max_cat_to_onehot=None,\n                               max_delta_step=None, max_depth=5,\n                               max_leaves=None, min_child_weight=None,\n                               missing=nan, monotone_constraints=None,\n                               multi_strategy=None, n_estimators=494,\n                               n_jobs=None, num_parallel_tree=None,\n                               random_state=42, ...))])"
+  },
+  {
+    "model": "rf",
+    "best_score": 0.8182145444702048,
+    "best_params": {
+      "clf__n_estimators": 389,
+      "clf__min_samples_split": 5,
+      "clf__min_samples_leaf": 1,
+      "clf__max_features": "log2",
+      "clf__max_depth": 30
+    },
+    "classification_report": {
+      "0": {
+        "precision": 0.782,
+        "recall": 0.6753022452504318,
+        "f1-score": 0.7247451343836886,
+        "support": 579.0
+      },
+      "1": {
+        "precision": 0.8352322524101665,
+        "recall": 0.8973634651600754,
+        "f1-score": 0.8651838402178847,
+        "support": 1062.0
+      },
+      "accuracy": 0.8190127970749543,
+      "macro avg": {
+        "precision": 0.8086161262050833,
+        "recall": 0.7863328552052535,
+        "f1-score": 0.7949644873007866,
+        "support": 1641.0
+      },
+      "weighted avg": {
+        "precision": 0.8164501231319908,
+        "recall": 0.8190127970749543,
+        "f1-score": 0.8156323407187991,
+        "support": 1641.0
+      }
+    },
+    "estimator_repr": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('clf',\n                 RandomForestClassifier(max_depth=30, max_features='log2',\n                                        min_samples_split=5, n_estimators=389,\n                                        n_jobs=-1, random_state=42))])"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "model_type": "RandomForest",
+  "n_features": 20,
+  "accuracy": 0.6471663619744058,
+  "binary_classification": true,
+  "feature_subset": "top_20",
+  "training_date": "2025-11-30 14:07:58.607942"
+}

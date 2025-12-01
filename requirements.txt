@@ -6,7 +6,15 @@ matplotlib==3.7.5
 seaborn==0.13.2
 umap-learn==0.5.4
 tensorflow==2.15.1
-xgboost==2.0.3
+xgboost
+paho-mqtt
+pyserial
+streamlit
+plotly
+
+# Telegram Bot & Environment Management
+python-telegram-bot==20.7
+python-dotenv
 optuna==3.6.1
 pycaret==3.3.2
 PyWavelets

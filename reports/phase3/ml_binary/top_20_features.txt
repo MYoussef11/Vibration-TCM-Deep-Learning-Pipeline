@@ -1,0 +1,23 @@
+Top 20 Features for Binary ML Model
+===========================================================================
+
+1. acceleration_yg_wpd_wpd_energy_lvl3_node0: 0.051062
+2. acceleration_yg_freq_spectral_energy: 0.050735
+3. acceleration_yg_freq_band_power_low: 0.045956
+4. acceleration_yg_time_rms: 0.037992
+5. acceleration_zg_freq_spectral_energy: 0.037790
+6. acceleration_zg_time_rms: 0.035347
+7. acceleration_yg_time_mean: 0.027657
+8. acceleration_zg_freq_band_power_low: 0.025367
+9. acceleration_zg_wpd_wpd_energy_lvl3_node0: 0.022985
+10. acceleration_zg_time_crest_factor: 0.018678
+11. acceleration_zg_time_mean: 0.018329
+12. angular_velocity_ydps_time_mad: 0.017632
+13. acceleration_zg_time_skewness: 0.016164
+14. acceleration_zg_time_std: 0.015970
+15. angular_velocity_zdps_wpd_wpd_energy_lvl3_node4: 0.015416
+16. angular_velocity_ydps_time_rms: 0.014561
+17. angular_velocity_ydps_time_std: 0.014004
+18. acceleration_zg_time_mad: 0.013908
+19. acceleration_zg_wpd_wpd_energy_lvl3_node1: 0.011727
+20. angular_velocity_ydps_wpd_wpd_energy_lvl3_node4: 0.011256

@@ -1,0 +1,24 @@
+{
+  "features": [
+    "acceleration_yg_wpd_wpd_energy_lvl3_node0",
+    "acceleration_yg_freq_spectral_energy",
+    "acceleration_yg_freq_band_power_low",
+    "acceleration_yg_time_rms",
+    "acceleration_zg_freq_spectral_energy",
+    "acceleration_zg_time_rms",
+    "acceleration_yg_time_mean",
+    "acceleration_zg_freq_band_power_low",
+    "acceleration_zg_wpd_wpd_energy_lvl3_node0",
+    "acceleration_zg_time_crest_factor",
+    "acceleration_zg_time_mean",
+    "angular_velocity_ydps_time_mad",
+    "acceleration_zg_time_skewness",
+    "acceleration_zg_time_std",
+    "angular_velocity_zdps_wpd_wpd_energy_lvl3_node4",
+    "angular_velocity_ydps_time_rms",
+    "angular_velocity_ydps_time_std",
+    "acceleration_zg_time_mad",
+    "acceleration_zg_wpd_wpd_energy_lvl3_node1",
+    "angular_velocity_ydps_wpd_wpd_energy_lvl3_node4"
+  ]
+}

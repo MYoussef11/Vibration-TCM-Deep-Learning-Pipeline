@@ -1,0 +1,9 @@
+{
+  "model_type": "rf",
+  "accuracy": 0.8182145444702048,
+  "n_features": 126,
+  "binary_classification": true,
+  "training_date": "2025-11-30 13:47:04.036901",
+  "model_file": "rf_best_estimator.pkl",
+  "feature_file": "feature_names.json"
+}

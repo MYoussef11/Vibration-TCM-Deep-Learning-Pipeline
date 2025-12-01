@@ -1,0 +1,40 @@
+{
+  "model": "xgboost",
+  "best_score": 0.8117159750445093,
+  "best_params": {
+    "clf__subsample": 1.0,
+    "clf__reg_lambda": 0.01,
+    "clf__n_estimators": 494,
+    "clf__max_depth": 5,
+    "clf__learning_rate": 0.004641588833612777,
+    "clf__colsample_bytree": 0.65
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.7641325536062378,
+      "recall": 0.6770293609671848,
+      "f1-score": 0.717948717948718,
+      "support": 579.0
+    },
+    "1": {
+      "precision": 0.8342198581560284,
+      "recall": 0.8860640301318268,
+      "f1-score": 0.8593607305936073,
+      "support": 1062.0
+    },
+    "accuracy": 0.8123095673369897,
+    "macro avg": {
+      "precision": 0.7991762058811331,
+      "recall": 0.7815466955495058,
+      "f1-score": 0.7886547242711626,
+      "support": 1641.0
+    },
+    "weighted avg": {
+      "precision": 0.809490699512318,
+      "recall": 0.8123095673369897,
+      "f1-score": 0.8094658157115896,
+      "support": 1641.0
+    }
+  },
+  "estimator_repr": "Pipeline(steps=[('scaler', StandardScaler()),\n                ('clf',\n                 XGBClassifier(base_score=None, booster=None, callbacks=None,\n                               colsample_bylevel=None, colsample_bynode=None,\n                               colsample_bytree=0.65, device=None,\n                               early_stopping_rounds=None,\n                               enable_categorical=False, eval_metric='logloss',\n                               feature_types=None, gamma=None, grow_policy=None,\n                               importance_type=None,\n                               interaction_constraints=None,\n                               learning_rate=0.004641588833612777, max_bin=None,\n                               max_cat_threshold=None, max_cat_to_onehot=None,\n                               max_delta_step=None, max_depth=5,\n                               max_leaves=None, min_child_weight=None,\n                               missing=nan, monotone_constraints=None,\n                               multi_strategy=None, n_estimators=494,\n                               n_jobs=None, num_parallel_tree=None,\n                               random_state=42, ...))])"
+}

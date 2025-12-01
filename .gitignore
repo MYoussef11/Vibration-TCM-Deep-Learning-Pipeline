@@ -1,4 +1,3 @@
-venv/
 .venv/
 ENV/
 env/
@@ -14,9 +13,25 @@ __pycache__/
 *.npy
 *.npz
 *.tfrec
+*.h5
+*.keras
+*.pkl
+
+reports/*.pkl
+reports/*.keras
+reports/*.h5
 
 logs/
 wandb/
 .pytest_cache/
 .ipynb_checkpoints/
 Data/
+
+# Environment variables (CRITICAL - contains secrets)
+.env
+*.env
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
